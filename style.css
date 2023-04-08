@@ -1,0 +1,224 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+ul {
+    font-size: 1.5rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #9146FF;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li{
+    float: left;
+  }
+    
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+    
+  li a:hover {
+    background-color: rgb(44, 8, 78);
+    color: white;
+  }
+
+.addForm{
+    display: flex;
+    flex-direction: column;
+    width: 12%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+}
+
+.add{
+    display: flex;
+    flex-direction: column;
+    
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+
+.streamerDiv{
+    font-size: 2rem;
+  padding: 2rem 0;
+  width: 30rem;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top:1.5rem;
+  text-decoration: none;
+  border-radius: 25px;
+  border: 5px solid rgb(0, 0, 0);
+  color: rgb(35,31,32);
+  background:#a56ef8;
+}
+
+.allStreamers{
+  margin-top: 5rem;
+}
+
+.streamerDiv:hover{
+    background-color: rgb(44, 8, 78);
+    color: white;
+    cursor: pointer;
+}
+
+.streamerStats{
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6rem;
+  padding: 2rem;
+  border: solid black;
+  border-radius: 2rem;
+  width: 25%;
+  background:#a56ef8;
+  font-size: 1.2rem;
+}
+
+.streamerStats p {
+  margin: 1rem;
+}
+
+.deleteBtn {
+  padding: 0.5rem;
+  font-size: 1rem;
+  background-color: rgb(247, 70, 70);
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  position: absolute;
+  left: 59%
+}
+
+.deleteBtn:hover{
+  cursor: pointer;
+  background-color: red;
+}
+
+.addTeamBtn{
+  padding: 0.5rem;
+  font-size: 1rem;
+  background-color: rgb(56, 138, 252);
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  position: absolute;
+  left: 53%
+}
+
+.addTeamBtn:hover{
+  cursor: pointer;
+  background-color: rgb(0, 105, 251)
+}
+
+.add{
+  padding: 0.5rem;
+  font-size: 1rem;
+  background-color: #9146FF;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+}
+
+.add:hover{
+  background:#a56ef8;
+  cursor: pointer;
+}
+
+.teamText{
+  margin-top: 12rem;
+  text-align: center;
+}
+
+.buttonsSpace{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.yesBtn{
+  padding: 0.5rem;
+  font-size: 1rem;
+  background-color: #28c900;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  width: 4%;
+  margin-right: 2rem;
+}
+
+.yesBtn:hover{
+  background-color: #22ac00;
+}
+
+.noBtn{
+  padding: 0.5rem;
+  font-size: 1rem;
+  background-color: #cd0202;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  width: 4%;
+  margin-left: 2rem;
+}
+
+.noBtn:hover{
+  background-color: #ac0000;
+}
+.searchSpace{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.searchInput{
+font-size: 2rem;
+border-radius: 1rem 0 0 1rem;
+padding-left: 0.5rem;
+}
+
+.submitSearch{
+font-size: 2rem;
+background-color: rgb(56, 138, 252);
+border-radius: 0 1rem 1rem 0;
+}
+
+.submitSearch:hover{
+  background-color: rgb(0, 105, 251);
+}
+
+.addTeamForm{
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+input{
+  font-size: 1.5rem;
+}
+
+label{
+  font-size: 1.5rem;
+}
+
+.addTeamForm label{
+  margin-right: 1rem;
+}
+
+.nothingFound{
+  text-align: center;
+}
